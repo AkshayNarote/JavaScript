@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>JavaScript-Inline</title>
+  <script>
+	function bodyload(){
+		  document.getElementById("pic").src="D:/images/rose.png";
+		  document.getElementById("btn1").value="Register";
+		  document.getElementById("btn2").value="Login";
+		}
+  </script>
+ </head>
+ <body onload="bodyload()">
+   <img name="pic" id="pic" width="500px" height="500px" border="1"/>
+   <div>
+     <form name="frm1">
+        <h2>Register</h2>
+        User Name: <input name="txt1" type="text"> <input name="btn1" id="btn1" type="button">
+	 </form>
+   </div>
+   <div>
+     <form name="frm2">
+        <h2>Login</h2>
+        Email: <input name="txt2" type="email"> <input name="btn2" id="btn2" type="button">
+	 </form>
+   </div>
+ </body>
+</html>
