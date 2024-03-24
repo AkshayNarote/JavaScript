@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>JavaScript-Inline</title>
+  <script>
+	function bodyload(){
+		  document.querySelector("img").src="D:/images/laptop1.png";
+		  document.querySelector(".btn").value="Register";
+		  document.querySelector(".btn").style.backgroundColor="red";
+		  document.querySelector("#btn2").value="Login";
+		}
+  </script>
+ </head>
+ <body onload="bodyload()">
+   <img name="pic" id="pic" width="500px" height="500px" border="1"/>
+   <div>
+     <form name="frm1">
+        <h2>Register</h2>
+        User Name: <input name="txt1" type="text"> <input name="btn1" id="btn1" class="btn" type="button">
+	 </form>
+   </div>
+   <div>
+     <form name="frm2">
+        <h2>Login</h2>
+        Email: <input name="txt2" type="email"> <input name="btn2" id="btn2" class="btn" type="button">
+	 </form>
+   </div>
+ </body>
+</html>
