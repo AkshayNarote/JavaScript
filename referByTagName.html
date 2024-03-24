@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>JavaScript-Inline</title>
+  <script>
+	function bodyload(){
+		  result= document.getElementsByTagName("h2");
+		  alert("Total Number Of Payment Methods:"+result.length);
+		}
+  </script>
+ </head>
+ <body onload="bodyload()">
+    <h2>Register</h2>
+	<h2>Login</h2>
+    <fieldset>
+	   <legend>Payment Method</legend>
+	   <input type="radio" class="input" name="pay"/>Cash
+       <input type="radio" class="input" name="pay"/>UPI
+       <input type="radio" name="pay"/>Credit Card
+	</fieldset>
+ </body>
+</html>
