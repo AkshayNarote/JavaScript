@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>JavaScript-Inline</title>
+  <script>
+	function bodyload(){
+		window.document.images[0].src="D:/images/laptop.jpg";
+		window.document.forms[0].elements[1].value="Register";
+		window.document.forms[1].elements[1].value="Login";
+		}
+  </script>
+ </head>
+ <body onload="bodyload()">
+   <img style="border:2px solid blue;" width="500px" height="500px">
+   <div>
+     <form>
+        <h2>Register</h2>
+        User Name: <input type="text"> <input type="button">
+	 </form>
+   </div>
+   <div>
+     <form>
+        <h2>Login</h2>
+        Email: <input type="email"> <input type="button">
+	 </form>
+   </div>
+ </body>
+</html>
